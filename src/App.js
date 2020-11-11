@@ -7,7 +7,7 @@ import Resultado from './components/Resultado'
 import Spinner from './components/Spinner'
 
 const Contenedor = styled.div`
-  max-width: 60%;
+  max-width: 600px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 25px;
