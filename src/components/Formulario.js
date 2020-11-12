@@ -170,8 +170,8 @@ const Formulario = ({ setResumen, setCargando }) => {
 }
 
 Formulario.propTypes = {
-  setResumen: PropTypes.object.isRequired,
-  setCargando: PropTypes.bool.isRequired,
+  setResumen: PropTypes.func.isRequired,
+  setCargando: PropTypes.func.isRequired,
 }
 
 export default Formulario
